@@ -1,0 +1,12 @@
+marks = {}
+
+m = int(input("Maths: "))
+marks.update({"Maths" : m})
+
+p = int(input("Physics: "))
+marks.update({"Physics" : p})
+
+c = int(input("Chemistry: "))
+marks.update({"Chemistry" : c})
+
+print(marks)
