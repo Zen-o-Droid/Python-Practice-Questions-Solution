@@ -1,0 +1,6 @@
+# values = {10, 10.0} #won't work as the hasing for both are same
+
+# print(values)
+
+values = {10, "10.0"}  #will work as one is int and other is string
+print(values)
